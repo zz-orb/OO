@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SNAPSHOT profile="Complexity metrics" timestamp="周五, 22 3月 2024 22:07:13 GMT+08:00" version="1.12">
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.CognitiveComplexityMetric">
+    <VALUE measured="Lexer.Lexer(String)" value="38.0"/>
+    <VALUE measured="Lexer.move()" value="0.0"/>
+    <VALUE measured="Lexer.notEnd()" value="0.0"/>
+    <VALUE measured="Lexer.now()" value="0.0"/>
+    <VALUE measured="MainClass.main(String[])" value="0.0"/>
+    <VALUE measured="Parser.Parser(Lexer)" value="0.0"/>
+    <VALUE measured="Parser.parserExpr()" value="8.0"/>
+    <VALUE measured="Parser.parserFactor()" value="9.0"/>
+    <VALUE measured="Parser.parserTerm(int)" value="2.0"/>
+    <VALUE measured="PreTreat.PreTreat(String)" value="0.0"/>
+    <VALUE measured="PreTreat.delBlank()" value="0.0"/>
+    <VALUE measured="PreTreat.delExp()" value="0.0"/>
+    <VALUE measured="PreTreat.merSubAdd()" value="1.0"/>
+    <VALUE measured="Token.Token(Type, String)" value="0.0"/>
+    <VALUE measured="Token.getContent()" value="0.0"/>
+    <VALUE measured="Token.getType()" value="0.0"/>
+    <VALUE measured="Token.toString()" value="0.0"/>
+    <VALUE measured="compare(Mono, Mono)" value="0.0"/>
+    <VALUE measured="compute.Mono.Mono(BigInteger, int)" value="0.0"/>
+    <VALUE measured="compute.Mono.getCoe()" value="0.0"/>
+    <VALUE measured="compute.Mono.getExp()" value="0.0"/>
+    <VALUE measured="compute.Mono.setCoe(BigInteger)" value="0.0"/>
+    <VALUE measured="compute.Mono.setExp(int)" value="0.0"/>
+    <VALUE measured="compute.Mono.toString()" value="9.0"/>
+    <VALUE measured="compute.Poly.Poly()" value="0.0"/>
+    <VALUE measured="compute.Poly.PolyAdd(Mono)" value="0.0"/>
+    <VALUE measured="compute.Poly.addPoly(Poly)" value="8.0"/>
+    <VALUE measured="compute.Poly.getMoonByExp(Poly, int)" value="3.0"/>
+    <VALUE measured="compute.Poly.mulPoly(Poly)" value="3.0"/>
+    <VALUE measured="compute.Poly.negate()" value="1.0"/>
+    <VALUE measured="compute.Poly.powPoly(Poly, int)" value="4.0"/>
+    <VALUE measured="compute.Poly.simplePoly()" value="11.0"/>
+    <VALUE measured="compute.Poly.swapMono()" value="7.0"/>
+    <VALUE measured="compute.Poly.toString()" value="6.0"/>
+    <VALUE measured="expression.Expr.Expr()" value="0.0"/>
+    <VALUE measured="expression.Expr.addTerm(Term)" value="0.0"/>
+    <VALUE measured="expression.Expr.toPoly()" value="1.0"/>
+    <VALUE measured="expression.ExprFactor.ExprFactor(Expr)" value="0.0"/>
+    <VALUE measured="expression.ExprFactor.toPoly()" value="0.0"/>
+    <VALUE measured="expression.Factor.GetEXp()" value="0.0"/>
+    <VALUE measured="expression.Factor.SetExp(int)" value="0.0"/>
+    <VALUE measured="expression.NumFactor.NumFactor(BigInteger)" value="0.0"/>
+    <VALUE measured="expression.NumFactor.toPoly()" value="0.0"/>
+    <VALUE measured="expression.PowFactor.PowFactor(String)" value="0.0"/>
+    <VALUE measured="expression.PowFactor.toPoly()" value="0.0"/>
+    <VALUE measured="expression.Term.Term()" value="0.0"/>
+    <VALUE measured="expression.Term.addFactor(Factor)" value="0.0"/>
+    <VALUE measured="expression.Term.getSign()" value="0.0"/>
+    <VALUE measured="expression.Term.setSign(int)" value="0.0"/>
+    <VALUE measured="expression.Term.toPoly()" value="15.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.EssentialCyclomaticComplexityMetric">
+    <VALUE measured="Lexer.Lexer(String)" value="13.0"/>
+    <VALUE measured="Lexer.move()" value="1.0"/>
+    <VALUE measured="Lexer.notEnd()" value="1.0"/>
+    <VALUE measured="Lexer.now()" value="1.0"/>
+    <VALUE measured="MainClass.main(String[])" value="1.0"/>
+    <VALUE measured="Parser.Parser(Lexer)" value="1.0"/>
+    <VALUE measured="Parser.parserExpr()" value="1.0"/>
+    <VALUE measured="Parser.parserFactor()" value="3.0"/>
+    <VALUE measured="Parser.parserTerm(int)" value="1.0"/>
+    <VALUE measured="PreTreat.PreTreat(String)" value="1.0"/>
+    <VALUE measured="PreTreat.delBlank()" value="1.0"/>
+    <VALUE measured="PreTreat.delExp()" value="1.0"/>
+    <VALUE measured="PreTreat.merSubAdd()" value="1.0"/>
+    <VALUE measured="Token.Token(Type, String)" value="1.0"/>
+    <VALUE measured="Token.getContent()" value="1.0"/>
+    <VALUE measured="Token.getType()" value="1.0"/>
+    <VALUE measured="Token.toString()" value="1.0"/>
+    <VALUE measured="compute.Mono.Mono(BigInteger, int)" value="1.0"/>
+    <VALUE measured="compute.Mono.getCoe()" value="1.0"/>
+    <VALUE measured="compute.Mono.getExp()" value="1.0"/>
+    <VALUE measured="compute.Mono.setCoe(BigInteger)" value="1.0"/>
+    <VALUE measured="compute.Mono.setExp(int)" value="1.0"/>
+    <VALUE measured="compute.Mono.toString()" value="7.0"/>
+    <VALUE measured="compute.Poly.Poly()" value="1.0"/>
+    <VALUE measured="compute.Poly.PolyAdd(Mono)" value="1.0"/>
+    <VALUE measured="compute.Poly.addPoly(Poly)" value="1.0"/>
+    <VALUE measured="compute.Poly.getMoonByExp(Poly, int)" value="3.0"/>
+    <VALUE measured="compute.Poly.mulPoly(Poly)" value="1.0"/>
+    <VALUE measured="compute.Poly.negate()" value="1.0"/>
+    <VALUE measured="compute.Poly.powPoly(Poly, int)" value="1.0"/>
+    <VALUE measured="compute.Poly.simplePoly()" value="1.0"/>
+    <VALUE measured="compute.Poly.swapMono()" value="4.0"/>
+    <VALUE measured="compute.Poly.toString()" value="2.0"/>
+    <VALUE measured="expression.Expr.Expr()" value="1.0"/>
+    <VALUE measured="expression.Expr.addTerm(Term)" value="1.0"/>
+    <VALUE measured="expression.Expr.toPoly()" value="1.0"/>
+    <VALUE measured="expression.ExprFactor.ExprFactor(Expr)" value="1.0"/>
+    <VALUE measured="expression.ExprFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Factor.GetEXp()" value="1.0"/>
+    <VALUE measured="expression.Factor.SetExp(int)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.NumFactor(BigInteger)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.PowFactor.PowFactor(String)" value="1.0"/>
+    <VALUE measured="expression.PowFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Term.Term()" value="1.0"/>
+    <VALUE measured="expression.Term.addFactor(Factor)" value="1.0"/>
+    <VALUE measured="expression.Term.getSign()" value="1.0"/>
+    <VALUE measured="expression.Term.setSign(int)" value="1.0"/>
+    <VALUE measured="expression.Term.toPoly()" value="1.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.DesignComplexityMetric">
+    <VALUE measured="Lexer.Lexer(String)" value="14.0"/>
+    <VALUE measured="Lexer.move()" value="1.0"/>
+    <VALUE measured="Lexer.notEnd()" value="1.0"/>
+    <VALUE measured="Lexer.now()" value="1.0"/>
+    <VALUE measured="MainClass.main(String[])" value="1.0"/>
+    <VALUE measured="Parser.Parser(Lexer)" value="1.0"/>
+    <VALUE measured="Parser.parserExpr()" value="7.0"/>
+    <VALUE measured="Parser.parserFactor()" value="7.0"/>
+    <VALUE measured="Parser.parserTerm(int)" value="3.0"/>
+    <VALUE measured="PreTreat.PreTreat(String)" value="1.0"/>
+    <VALUE measured="PreTreat.delBlank()" value="1.0"/>
+    <VALUE measured="PreTreat.delExp()" value="1.0"/>
+    <VALUE measured="PreTreat.merSubAdd()" value="2.0"/>
+    <VALUE measured="Token.Token(Type, String)" value="1.0"/>
+    <VALUE measured="Token.getContent()" value="1.0"/>
+    <VALUE measured="Token.getType()" value="1.0"/>
+    <VALUE measured="Token.toString()" value="1.0"/>
+    <VALUE measured="compute.Mono.Mono(BigInteger, int)" value="1.0"/>
+    <VALUE measured="compute.Mono.getCoe()" value="1.0"/>
+    <VALUE measured="compute.Mono.getExp()" value="1.0"/>
+    <VALUE measured="compute.Mono.setCoe(BigInteger)" value="1.0"/>
+    <VALUE measured="compute.Mono.setExp(int)" value="1.0"/>
+    <VALUE measured="compute.Mono.toString()" value="9.0"/>
+    <VALUE measured="compute.Poly.Poly()" value="1.0"/>
+    <VALUE measured="compute.Poly.PolyAdd(Mono)" value="1.0"/>
+    <VALUE measured="compute.Poly.addPoly(Poly)" value="4.0"/>
+    <VALUE measured="compute.Poly.getMoonByExp(Poly, int)" value="2.0"/>
+    <VALUE measured="compute.Poly.mulPoly(Poly)" value="3.0"/>
+    <VALUE measured="compute.Poly.negate()" value="2.0"/>
+    <VALUE measured="compute.Poly.powPoly(Poly, int)" value="3.0"/>
+    <VALUE measured="compute.Poly.simplePoly()" value="6.0"/>
+    <VALUE measured="compute.Poly.swapMono()" value="5.0"/>
+    <VALUE measured="compute.Poly.toString()" value="4.0"/>
+    <VALUE measured="expression.Expr.Expr()" value="1.0"/>
+    <VALUE measured="expression.Expr.addTerm(Term)" value="1.0"/>
+    <VALUE measured="expression.Expr.toPoly()" value="2.0"/>
+    <VALUE measured="expression.ExprFactor.ExprFactor(Expr)" value="1.0"/>
+    <VALUE measured="expression.ExprFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Factor.GetEXp()" value="1.0"/>
+    <VALUE measured="expression.Factor.SetExp(int)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.NumFactor(BigInteger)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.PowFactor.PowFactor(String)" value="1.0"/>
+    <VALUE measured="expression.PowFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Term.Term()" value="1.0"/>
+    <VALUE measured="expression.Term.addFactor(Factor)" value="1.0"/>
+    <VALUE measured="expression.Term.getSign()" value="1.0"/>
+    <VALUE measured="expression.Term.setSign(int)" value="1.0"/>
+    <VALUE measured="expression.Term.toPoly()" value="10.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.methodMetrics.CyclomaticComplexityMetric">
+    <VALUE measured="Lexer.Lexer(String)" value="18.0"/>
+    <VALUE measured="Lexer.move()" value="1.0"/>
+    <VALUE measured="Lexer.notEnd()" value="1.0"/>
+    <VALUE measured="Lexer.now()" value="1.0"/>
+    <VALUE measured="MainClass.main(String[])" value="1.0"/>
+    <VALUE measured="Parser.Parser(Lexer)" value="1.0"/>
+    <VALUE measured="Parser.parserExpr()" value="7.0"/>
+    <VALUE measured="Parser.parserFactor()" value="7.0"/>
+    <VALUE measured="Parser.parserTerm(int)" value="3.0"/>
+    <VALUE measured="PreTreat.PreTreat(String)" value="1.0"/>
+    <VALUE measured="PreTreat.delBlank()" value="1.0"/>
+    <VALUE measured="PreTreat.delExp()" value="1.0"/>
+    <VALUE measured="PreTreat.merSubAdd()" value="2.0"/>
+    <VALUE measured="Token.Token(Type, String)" value="1.0"/>
+    <VALUE measured="Token.getContent()" value="1.0"/>
+    <VALUE measured="Token.getType()" value="1.0"/>
+    <VALUE measured="Token.toString()" value="1.0"/>
+    <VALUE measured="compute.Mono.Mono(BigInteger, int)" value="1.0"/>
+    <VALUE measured="compute.Mono.getCoe()" value="1.0"/>
+    <VALUE measured="compute.Mono.getExp()" value="1.0"/>
+    <VALUE measured="compute.Mono.setCoe(BigInteger)" value="1.0"/>
+    <VALUE measured="compute.Mono.setExp(int)" value="1.0"/>
+    <VALUE measured="compute.Mono.toString()" value="9.0"/>
+    <VALUE measured="compute.Poly.Poly()" value="1.0"/>
+    <VALUE measured="compute.Poly.PolyAdd(Mono)" value="1.0"/>
+    <VALUE measured="compute.Poly.addPoly(Poly)" value="4.0"/>
+    <VALUE measured="compute.Poly.getMoonByExp(Poly, int)" value="3.0"/>
+    <VALUE measured="compute.Poly.mulPoly(Poly)" value="3.0"/>
+    <VALUE measured="compute.Poly.negate()" value="2.0"/>
+    <VALUE measured="compute.Poly.powPoly(Poly, int)" value="3.0"/>
+    <VALUE measured="compute.Poly.simplePoly()" value="6.0"/>
+    <VALUE measured="compute.Poly.swapMono()" value="5.0"/>
+    <VALUE measured="compute.Poly.toString()" value="4.0"/>
+    <VALUE measured="expression.Expr.Expr()" value="1.0"/>
+    <VALUE measured="expression.Expr.addTerm(Term)" value="1.0"/>
+    <VALUE measured="expression.Expr.toPoly()" value="2.0"/>
+    <VALUE measured="expression.ExprFactor.ExprFactor(Expr)" value="1.0"/>
+    <VALUE measured="expression.ExprFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Factor.GetEXp()" value="1.0"/>
+    <VALUE measured="expression.Factor.SetExp(int)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.NumFactor(BigInteger)" value="1.0"/>
+    <VALUE measured="expression.NumFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.PowFactor.PowFactor(String)" value="1.0"/>
+    <VALUE measured="expression.PowFactor.toPoly()" value="1.0"/>
+    <VALUE measured="expression.Term.Term()" value="1.0"/>
+    <VALUE measured="expression.Term.addFactor(Factor)" value="1.0"/>
+    <VALUE measured="expression.Term.getSign()" value="1.0"/>
+    <VALUE measured="expression.Term.setSign(int)" value="1.0"/>
+    <VALUE measured="expression.Term.toPoly()" value="10.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.AverageOperationComplexityMetric">
+    <VALUE measured="Lexer" value="4.25"/>
+    <VALUE measured="MainClass" value="1.0"/>
+    <VALUE measured="Parser" value="3.25"/>
+    <VALUE measured="PreTreat" value="1.25"/>
+    <VALUE measured="Token" value="1.0"/>
+    <VALUE measured="compute.Mono" value="2.0"/>
+    <VALUE measured="compute.Poly" value="2.909090909090909"/>
+    <VALUE measured="expression.Expr" value="1.3333333333333333"/>
+    <VALUE measured="expression.ExprFactor" value="1.0"/>
+    <VALUE measured="expression.Factor" value="1.0"/>
+    <VALUE measured="expression.NumFactor" value="1.0"/>
+    <VALUE measured="expression.PowFactor" value="1.0"/>
+    <VALUE measured="expression.Term" value="2.8"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.MaximumOperationComplexityMetric">
+    <VALUE measured="Lexer" value="14.0"/>
+    <VALUE measured="MainClass" value="1.0"/>
+    <VALUE measured="Parser" value="5.0"/>
+    <VALUE measured="PreTreat" value="2.0"/>
+    <VALUE measured="Token" value="1.0"/>
+    <VALUE measured="compute.Mono" value="7.0"/>
+    <VALUE measured="compute.Poly" value="6.0"/>
+    <VALUE measured="expression.Expr" value="2.0"/>
+    <VALUE measured="expression.ExprFactor" value="1.0"/>
+    <VALUE measured="expression.Factor" value="1.0"/>
+    <VALUE measured="expression.NumFactor" value="1.0"/>
+    <VALUE measured="expression.PowFactor" value="1.0"/>
+    <VALUE measured="expression.Term" value="10.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.classMetrics.WeightedMethodComplexityMetric">
+    <VALUE measured="Lexer" value="17.0"/>
+    <VALUE measured="MainClass" value="1.0"/>
+    <VALUE measured="Parser" value="13.0"/>
+    <VALUE measured="PreTreat" value="5.0"/>
+    <VALUE measured="Token" value="4.0"/>
+    <VALUE measured="Token.Type" value="0.0"/>
+    <VALUE measured="compute.Mono" value="12.0"/>
+    <VALUE measured="compute.Poly" value="32.0"/>
+    <VALUE measured="expression.Expr" value="4.0"/>
+    <VALUE measured="expression.ExprFactor" value="2.0"/>
+    <VALUE measured="expression.Factor" value="2.0"/>
+    <VALUE measured="expression.NumFactor" value="2.0"/>
+    <VALUE measured="expression.PowFactor" value="2.0"/>
+    <VALUE measured="expression.Term" value="14.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.packageMetrics.AverageCyclomaticComplexityPackageMetric">
+    <VALUE measured="" value="2.8823529411764706"/>
+    <VALUE measured="compute" value="2.875"/>
+    <VALUE measured="expression" value="1.625"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.packageMetrics.TotalCyclomaticComplexityPackageMetric">
+    <VALUE measured="" value="49.0"/>
+    <VALUE measured="compute" value="46.0"/>
+    <VALUE measured="expression" value="26.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.AverageCyclomaticComplexityModuleMetric">
+    <VALUE measured="oohomework_2024_22373474_hw_1" value="2.4693877551020407"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.moduleMetrics.TotalCyclomaticComplexityModuleMetric">
+    <VALUE measured="oohomework_2024_22373474_hw_1" value="121.0"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.AverageCyclomaticComplexityProjectMetric">
+    <VALUE measured="project" value="2.4693877551020407"/>
+  </METRIC>
+  <METRIC class_name="com.sixrr.stockmetrics.projectMetrics.TotalCyclomaticComplexityProjectMetric">
+    <VALUE measured="project" value="121.0"/>
+  </METRIC>
+</SNAPSHOT>
